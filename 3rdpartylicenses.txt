@@ -276,10 +276,6 @@ MIT
 MIT
 MIT
 
-@angular/forms@6.1.7
-MIT
-MIT
-
 mapbox-gl@0.53.1
 SEE LICENSE IN LICENSE.txt
 Copyright (c) 2016, Mapbox
@@ -624,7 +620,15 @@ SOFTWARE.
 MIT
 MIT
 
+@angular/forms@6.1.7
+MIT
+MIT
+
 @angular/http@6.1.7
+MIT
+MIT
+
+ng-circle-progress@1.4.1
 MIT
 MIT
 

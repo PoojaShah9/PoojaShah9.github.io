@@ -40,10 +40,11 @@
 
         #map {
             position: absolute !important;
-            top: 80px;
+            top: 100px;
             left: 5px;
             bottom: 0;
             width: 100%;
+            height: 80% !important;
         }
 
         #loader {
@@ -65,6 +66,22 @@
             height: 45px;
             top: 50%;
         }
+        .mapboxgl-user-location-dot {
+            background-color: unset;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
+            background-image: url('./assets/img/modal-img/Webp.net-resizeimage (3).png');
+        }
+
+        .mapboxgl-user-location-dot::after {
+             border: unset;
+        }
+        .mapboxgl-user-location-dot::before {
+            width: 50px;
+            height: 50px;
+        }
 
     </style>
 <link rel="stylesheet" href="styles.4005ec2b4a24c65ff3b0.css"></head>
@@ -72,6 +89,6 @@
 <app-root>
     <div id="loader"><img src="assets/img/loader-preview.svg" alt="loading"></div>
 </app-root>
-<script type="text/javascript" src="runtime.fbb850d8dcc88bbf44fc.js"></script><script type="text/javascript" src="polyfills.d1f1fb457c7fdb8083db.js"></script><script type="text/javascript" src="scripts.522ea3a0192cdddabad6.js"></script><script type="text/javascript" src="main.72c29b11ec7101be7a89.js"></script></body>
+<script type="text/javascript" src="runtime.d1930df92ef6139ee8fb.js"></script><script type="text/javascript" src="polyfills.d1f1fb457c7fdb8083db.js"></script><script type="text/javascript" src="scripts.522ea3a0192cdddabad6.js"></script><script type="text/javascript" src="main.2e8313ed96fcc9af4d96.js"></script></body>
 
 </html>
